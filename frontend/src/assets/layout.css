@@ -1,0 +1,70 @@
+   tbody tr td{
+    text-align: left !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  thead tr th{
+     text-align: left !important;
+    
+   }
+   
+   .active{
+    background-color: #083344 !important;
+    color: rgb(255, 255, 255) !important;
+   }
+   .disabled{
+    /* color: blue; */
+    background-color: #fff;
+   }
+   .round{
+    border-radius: 12px !important;
+    
+   }
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.hero {
+  background: #ffffff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 24px;
+}
+
+.hero img {
+  max-width: 100%;
+}
+
+.about-us, .projects, .services, .contact-us {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.about-us h2, .projects h2, .services h2, .contact-us h2 {
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+
+.services .ant-card-meta {
+  margin-bottom: 16px;
+}
+
+.contact-us .ant-form-item {
+  max-width: 300px;
+  margin: 0 auto;
+}
+.text-decoration-none{
+  /* text-decoration-line: none !important; */
+  /* text-decoration-style: none !important; */
+  text-decoration: none !important;
+}
+@media (min-width: 993px) {
+  .drawer-menu {
+    display: none;
+  }
+}
